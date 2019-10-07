@@ -1,5 +1,4 @@
 # What is Stack ?
-<img src="https://i.imgur.com/ArHZkOR.png" width="600" height="250">
 
 ## 為什麼要有 Stack?
 * 編譯器(word、sublime)的 undo 。
