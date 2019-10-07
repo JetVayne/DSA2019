@@ -1,5 +1,5 @@
 # What is Stack ?
-
+![image](https://i.imgur.com/v1dqpMp.png)
 ## 為什麼要有 Stack?
 * 編譯器(word、sublime)的 undo 。
 * 網頁瀏覽器中回到上一頁功能。
