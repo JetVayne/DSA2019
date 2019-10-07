@@ -9,4 +9,4 @@ data structure and algorithm
 
 ## Week 2
 - [LeetCode - 155.Min Stack](https://leetcode.com/problems/min-stack/)  ♞  [my code](https://github.com/JetVayne/DSA2019/tree/master/2.%20Min%20Stack)
-- [LeetCode - ](https://leetcode.com/problems/implement-queue-using-stacks/)  ♞  [my code](https://github.com/JetVayne/DSA2019/tree/master/3.%20Queue)
+- [LeetCode - 232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)  ♞  [my code](https://github.com/JetVayne/DSA2019/tree/master/3.%20Queue)
