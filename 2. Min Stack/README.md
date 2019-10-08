@@ -1,4 +1,5 @@
 ###### tags: `GitHub - DSA2019`
+> <font size = 2 >Original Author : [aaron1aaron2](https://github.com/aaron1aaron2) -《[Stack & Queue](https://github.com/aaron1aaron2/my-learning-note/tree/master/week3)》</font>
 
 # What is Stack ?
 ![image](https://i.imgur.com/v1dqpMp.png)
