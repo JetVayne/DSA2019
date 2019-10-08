@@ -10,3 +10,6 @@ data structure and algorithm
 - [LeetCode - 155.Min Stack](https://leetcode.com/problems/min-stack/)  ♞  [my code](https://github.com/JetVayne/DSA2019/tree/master/2.%20Min%20Stack)
 - [LeetCode - 232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)  ♞  [my code](https://github.com/JetVayne/DSA2019/tree/master/3.%20Queue)
 
+## Week 3
+- [147. Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/)  ♞  [my code](https://github.com/JetVayne/DSA2019/tree/master/5.%20Insertion%20Sort)
+
