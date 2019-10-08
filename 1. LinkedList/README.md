@@ -1,0 +1,74 @@
+###### tags: `GitHub - DSA2019`
+
+# What is Linked List ?
+> <font size = 2 >Original Author : [aaron1aaron2](https://github.com/aaron1aaron2) -《[linked list](https://github.com/aaron1aaron2/my-learning-note/tree/master/week2)》</font>
+
+![](https://i.imgur.com/MOQOltS.png)
+<br><br>
+
+## 為什麼要有 Linked List ?
+* 可不連續的儲存在記憶體位置。
+* 依使用多寡分配空間，不會有浪費的空間。
+* 適合需要頻繁新增、刪除的資料
+* 走訪功能
+* Block Chain 應用
+
+## 剖析 Linked List
+![](https://i.imgur.com/lEOHxjN.png)
+<br>
+**Linked List** (連結串列) 是一種常見的資料結構，其使用Node(節點)來記錄、表示、儲存資料(Data)，並利用每個 Node 中的 Pointer 指向下一個 Node，藉此將多個 Node 串連起來，形成 **Linked List**，並以 NULL 來代表 **Linked List** 的終點。
+
+在這邊 Address 代表儲存位置，每個 Node 都有一個 Address，且會 Pointer 下個 Node 的 Address。所以在建構 **Linked List** 的時候，Node 的前後關系很重要。
+
+### 線性的資料結構 (Linear data structures)
+<img src="https://miro.medium.com/max/2090/1*Xokk6XOjWyIGCBujkJsCzQ.jpeg"  width="600" height="300">
+> 圖片擷取至: [What’s a Linked List, Anyway? [Part 1] | by Vaidehi Joshi
+](https://medium.com/basecs/whats-a-linked-list-anyway-part-1-d8b7e6508b9d)
+
+**Linked List 它是屬於線性的資料結構**，如上圖所示，線性的資料結構就是透過有順序的 **節點** or **元素** 所構成，可以將其比如成跳房子遊戲，我麼需要按照一定的順序去遍歷所有的節點。相反的非線性結構就不需要按照順序去遍歷。
+
+像是 **Trees** 和 **graphs** 就是非線性資料結構，這個之後上課會教就不多講了。這時候大可能會發現 **Array** 和 **Linked List** 其實蠻像的，因為他們都屬於線性的資料結構，接著我們就來比較一下兩者的差別。
+
+### 記憶體管理 (Memory management)
+<img src="https://miro.medium.com/max/2159/1*G43FVT5xJ1n1QDKVNZUxXQ.jpeg"  width="600" height="300">
+> 圖片擷取至: [What’s a Linked List, Anyway? [Part 1] | by Vaidehi Joshi
+](https://medium.com/basecs/whats-a-linked-list-anyway-part-1-d8b7e6508b9d)
+
+Ruby、JavaScript 和 Python屬於動態語言，所以我們不用花太多時間去思考，內存(記憶體)的配置。但是 **Linked List** 和 **Array** 最大的差別就是在記憶體上儲存的方式。 
+
+#### >> **Array**
+創建 Array 時，它需要一定數量的內存。如果我們需要在一個 Array 中存儲 7bytes 的東西，只能放在一個連續的塊中。因此，電腦必須在一個地方找到 7bytes 的空閒內存，也就是說有小於7 的空間不會被使用，所以就會造成浪費。
+#### >> **Linked List**
+另一方面，當 linked-List 誕生時，它不需要在同一個地方全部佔用 7bytes 的內存。每一個字節可以放在不同位置，需要的時候再呼叫它，也就是他們使用的內存空間可以分散在記憶體各處。
+
+## Linked List VS. Array 
+* **Array**(陣列)
+    * 優點:
+        * 可以隨機訪問(random access)：也就是可以直接透過 index 對Array的資料做存取。
+        * 較節省記憶體空間：因為 Linked List 需要多一個 pointer 來記錄下一個 node 的記憶體位置。
+    * 缺點：
+        * 新增/刪除資料很麻煩：若要在第一個位置新增資料，就需要O(N)時間把矩陣中所有元素往後移動。
+        * 若資料數量時常在改變，要時常調整矩陣的大小，會花費較多時間在搬運資料。
+        * 無法有效運用空間: 建立 array 時必須給他固定的範圍。
+    * 適用時機:
+        * 希望能夠快速存取資料。
+        * 已知欲處理的資料數量，便能確認矩陣的大小。
+        * 要求記憶體空間的使用越少越好。
+* **Linked List**
+    * 優點：
+        * 新增/刪除資料較簡單: 只要對前一個 note 調整 pointer 即可，不需要像 Array搬動其餘元素。
+            * 若是在Linked list的「開頭」新增node，只要O(1)。
+            * 若要刪除特定node，或者在特定位置新增node，有可能需要先執行O(N)的「搜尋」。
+        * 可以有效運用空間: Linked List的資料數量可以是動態的，不像Array會有resize的問題。
+    * 缺點：
+        * 搜尋較費時: 因為Linked List沒有index，若要找到特定node，需要從頭開始找起，搜尋的時間複雜度為O(N)。
+        * 占較多記憶體: 需要額外的記憶體空間來儲存 pointer。
+    * 適用時機：
+        * 無法預期資料數量時，使用Linked list就沒有resize的問題。
+        * 需要頻繁地新增/刪除資料時。
+        * 不需要快速查詢資料。
+## 效能 
+* 時間複雜度 [wiki](https://en.wikipedia.org/wiki/Time_complexity)
+    * Constant time| O(1): 固定的時間，不受到資料量影響。
+    * Linear time| O(N): 時間受資料量影響，呈線性增長。
+    * O(log N) 時間受資料量影響，1:log(N)。
