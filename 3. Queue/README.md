@@ -1,5 +1,7 @@
 ###### tags: `GitHub - DSA2019`
 # What is Queue ?
+> <font size = 2 >Original Author : [aaron1aaron2](https://github.com/aaron1aaron2) -《[Stack & Queue](https://github.com/aaron1aaron2/my-learning-note/tree/master/week3)》</font>
+
 ![](https://i.imgur.com/FRWYs3b.png)
 <br><br>
 
