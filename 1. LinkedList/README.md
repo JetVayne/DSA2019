@@ -3,6 +3,8 @@
 # What is Linked List ?
 > <font size = 2 >Original Author : [aaron1aaron2](https://github.com/aaron1aaron2) -《[linked list](https://github.com/aaron1aaron2/my-learning-note/tree/master/week2)》</font>
 
+<br>
+
 ![](https://i.imgur.com/MOQOltS.png)
 <br><br>
 
