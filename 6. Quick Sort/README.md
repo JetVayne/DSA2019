@@ -4,6 +4,6 @@
 <br>
 
 $2^n=X$
-
+\zeta(s) = \sum_{n=1}^\infty \frac{1}{n^s}
 <br><br>
 ![](https://i.imgur.com/BlppxgP.jpg)
