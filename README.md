@@ -15,5 +15,5 @@ data structure and algorithm
 - [LeetCode - 147. Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/)  &nbsp;&nbsp;♞&nbsp;&nbsp;  [my code](https://github.com/JetVayne/DSA2019/tree/master/5.%20Insertion%20Sort)
 
 ## Week 4
--[Assignment - 1. Quick Sort](https://github.com/JetVayne/DSA2019/tree/master/6.%20Quick%20Sort)
+- [Assignment - 1. Quick Sort](https://github.com/JetVayne/DSA2019/tree/master/6.%20Quick%20Sort)
 
