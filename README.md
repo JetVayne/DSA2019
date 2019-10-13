@@ -16,4 +16,5 @@ data structure and algorithm
 
 ## Week 4
 - [Assignment - 1. Quick Sort](https://github.com/JetVayne/DSA2019/tree/master/6.%20Quick%20Sort)
+- [LeetCode - 148. Sort List](https://leetcode.com/problems/sort-list/)
 
