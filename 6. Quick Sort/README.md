@@ -2,6 +2,6 @@
 <br>
 處理資料次數 X 與 recursive 次數 n 的關係:
 <br>
-$2^n = X$ 
+$ a^2-b^2= (a+b)(a-b) $
 <br><br>
 ![](https://i.imgur.com/BlppxgP.jpg)
