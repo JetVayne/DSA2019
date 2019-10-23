@@ -10,7 +10,7 @@
 ![](https://i.imgur.com/BlppxgP.jpg)
 <br>
 
-此方法雖然看似非常乾淨簡單，但是效能似乎沒有真的達到 O(n log n)，因為我在寫 [LeetCode - 148. Sort List](https://leetcode.com/problems/sort-list/) 的時候，發現直接使用這種方法，去排序ListNode，submit 後會因為效能沒有達到O(n log n)而失敗。
+此方法雖然看似非常乾淨簡單，但是效能似乎沒有真的達到 O(n log n)，因為我在寫 [LeetCode - 148. Sort List](https://leetcode.com/problems/sort-list/) 的時候，發現直接使用這種方法去排序 ListNode，submit 後會因為效能沒有達到O(n log n)而失敗。
 <br><br>
 
 ![](https://i.imgur.com/jBvf460.png)
