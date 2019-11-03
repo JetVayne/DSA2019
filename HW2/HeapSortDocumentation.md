@@ -3,7 +3,7 @@
 ## Reference
 [![Heap Sort Tutorial Video](https://i1.ytimg.com/vi/HqPJF2L5h9U/hqdefault.jpg)](https://www.youtube.com/watch?v=HqPJF2L5h9U)
 <br>
-這部影片中沒有任何的程式碼，只有關於 Heap Sort 的概念、邏輯解說。非常感謝 Abdul Bari 精美的板書，全影片50分鐘我只花了90分鐘就完全吸收了，而且吸收完後，當下對於用 python 去實現 Heap Sort 是有一點雛形的。除了因為印度口音要讓我全程專心看著字幕這點要扣分外，這部影片算是近乎100分了，非常推薦。
+這部影片中沒有任何的程式碼，只有關於 Heap Sort 的概念、邏輯解說。非常感謝 Abdul Bari 精美的板書，影片長度50分鐘，而我只花了90分鐘就完全吸收了，而且吸收完後，當下對於用 python 去實現 Heap Sort 是有一點雛形的。除了因為印度口音要讓我全程專心看著字幕這點要扣分外，這部影片算是近乎100分了，非常推薦。
 ## Diagram
 ![](https://i.imgur.com/xpZCoTh.jpg)
 
