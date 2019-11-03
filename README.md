@@ -21,8 +21,9 @@ data structure and algorithm
 - [Understanding time complexity with Python examples](https://towardsdatascience.com/understanding-time-complexity-with-python-examples-2bda6e8158a7)
 
 ## Week 5
-- ❔❔❔ 教授叫你用 GitHub ,卻沒教你 Git ? 這種做半套的行為是?
-    Hell with the unspoken rules of IT ! 自己看[影片](https://www.youtube.com/watch?v=4eOOZeL2WJ4&list=PLRxMjOjh7Y5d_eRLWr-DaujfI2YHgCqIf&index=1)、[document](https://blog.techbridge.cc/2018/01/17/learning-programming-and-coding-with-python-git-and-github-tutorial/) 學吧。話說 PyCharm 的 VCS 真香 ~
+- 教授叫你用 GitHub ,卻沒教你 Git ? 這種做半套的行為是?
+    Hell with the unspoken rules of IT ! 
+    自己看[影片](https://www.youtube.com/watch?v=4eOOZeL2WJ4&list=PLRxMjOjh7Y5d_eRLWr-DaujfI2YHgCqIf&index=1)、[document](https://blog.techbridge.cc/2018/01/17/learning-programming-and-coding-with-python-git-and-github-tutorial/) 學吧。話說 PyCharm 的 VCS 真香 ~
 - [Heap Sort](https://github.com/JetVayne/DSA2019/tree/master/8.%20Heap%20Sort)
 
 ## Week 6
