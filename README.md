@@ -25,5 +25,7 @@ data structure and algorithm
     Hell with the unspoken rules of IT ! 自己看[影片](https://www.youtube.com/watch?v=4eOOZeL2WJ4&list=PLRxMjOjh7Y5d_eRLWr-DaujfI2YHgCqIf&index=1)、[document](https://blog.techbridge.cc/2018/01/17/learning-programming-and-coding-with-python-git-and-github-tutorial/) 學吧。話說 PyCharm 的 VCS 真香 ~
 - [Heap Sort](https://github.com/JetVayne/DSA2019/tree/master/8.%20Heap%20Sort)
 
-
+## Week 6
+- [Merge Sort](https://github.com/JetVayne/DSA2019/tree/master/9.%20Merge%20Sort)
+- [Assignment - 2. Heap Sort & Merge Sort](https://github.com/JetVayne/DSA2019/tree/master/HW2)
 
