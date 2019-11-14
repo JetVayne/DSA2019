@@ -30,7 +30,7 @@ class Solution(object):
             self.merge(array, start_index, curr_mid, end_index)
 
     # 比值、合併、換值區
-    def merge(self, array: int, start: int, mid: int, end: int):
+    def merge(self, array: list, start: int, mid: int, end: int):
         result = []  # 最後 merge 完應該長成如何的指標，我用一個 list 存起來
         target_len = end - start + 1  # 該次要表定要 merge 的 element 數量
         left_list = []  # 左半部 sub-list 元素暫存區
