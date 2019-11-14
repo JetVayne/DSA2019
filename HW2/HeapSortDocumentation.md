@@ -10,6 +10,7 @@
 ## Reflection
 從看影片、完全吸收影片知識到完美的用程式把 Heap Sort 實做出來，大概花了5個小時，這算是不短的時間，而且就為了想出一句話。
 <br>
+
 <font color="red">只要一個 list 的元素在特殊排列後，可以將其結構畫成符合 Heap 的結構的樹狀圖，那麼這個 list 就是一個 Heap 。<font>
 <br>
 
